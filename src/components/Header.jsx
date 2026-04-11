@@ -13,7 +13,7 @@ export default function Header(){
           <div className="links">
             <a href="#contact">Contact</a>
             <a href="#projects">Projects</a>
-            <a href="/assets/2026_MAR-31_v1_CV of Vick LAM_for_JobsDB_ATS.docx" download>Download Resume</a>
+            <a href="/assets/resume.docx" download>Download Resume</a>
             <a href="https://linkedin.com/in/vick-lam-data-bi/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
