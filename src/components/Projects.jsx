@@ -7,11 +7,15 @@ export default function Projects(){
       <div className="project-grid">
         <article>
           <h3>Agency Digital Platform Revamp</h3>
-          <p>Led analytics, UAT and agent engagement activities to support a large-scale agency mobile app and platform revamp focused on lead assignment logic and adoption.</p>
+          <p>Supported end-to-end UAT, analytics and training for a major agency digital platform relaunch, improving lead assignment logic and agent adoption.</p>
         </article>
         <article>
           <h3>Enterprise Data Pool Transformation</h3>
-          <p>Architected scalable ETL flows and Power BI models on Azure Databricks to streamline reporting across multiple business units.</p>
+          <p>Designed and built Azure Databricks ETL flows and Power BI data models to support enterprise-wide reporting and improve processing efficiency.</p>
+        </article>
+        <article>
+          <h3>Integrated Data Warehouse & BI System</h3>
+          <p>Delivered an integrated reporting solution for trading, broker and client data while migrating legacy dashboards to Qlik Sense.</p>
         </article>
       </div>
     </section>

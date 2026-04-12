@@ -1,7 +1,11 @@
 name: Deploy site
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

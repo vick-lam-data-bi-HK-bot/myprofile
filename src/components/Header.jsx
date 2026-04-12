@@ -9,7 +9,8 @@ export default function Header(){
         </div>
         <div className="title">
           <h1>Vick LAM</h1>
-          <p className="headline">Strategic Data & Business Intelligence Professional</p>
+          <p className="headline">Strategic Data & Business Intelligence Leader</p>
+          <p className="subheadline">Driving digital transformation, agency performance, and executive decision support in Insurance and Financial Services.</p>
           <div className="links">
             <a href="#contact">Contact</a>
             <a href="#projects">Projects</a>
