@@ -24,3 +24,4 @@ Next steps I will take if you want me to continue:
 
 If you want me to proceed with extraction now, confirm that the uploaded CV file is available in the workspace path or paste its text.
 # Update
+# Trigger
