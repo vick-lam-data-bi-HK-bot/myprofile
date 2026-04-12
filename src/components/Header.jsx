@@ -14,7 +14,7 @@ export default function Header(){
           <div className="links">
             <a href="#contact">Contact</a>
             <a href="#projects">Projects</a>
-            <a href="/assets/resume.docx" download>Download Resume</a>
+            <a href="assets/resume.docx" download>Download Resume</a>
             <a href="https://linkedin.com/in/vick-lam-data-bi/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
