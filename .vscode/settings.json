@@ -20,6 +20,22 @@
         "/^cd /workspaces/myprofile && git add -A && git commit -m \"feat: add CMS module with admin panel, image upload, comments, and traffic analytics\n\n- Backend: Express server with SQLite database\n- Admin authentication system \\(Login: Admin1, Password: QwertyPoiu@418!~\\)\n- CMS profile picture editor\n- Comment submission and moderation system\n- Traffic analytics with daily stats, top pages, referrers, and browsers\n- Frontend: Admin dashboard, comment box, comment viewer\n- React Router for admin panel routing\"$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^cd /workspaces/myprofile && git push origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /workspaces/myprofile && git pull origin main && git push origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /workspaces/myprofile && git merge origin/main -m \"merge: combine CMS with remote updates\" && git push origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /workspaces/myprofile && git add -A && git commit -m \"docs: add CMS setup guide and quickstart script\" && git push origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
