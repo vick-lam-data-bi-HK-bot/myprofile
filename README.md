@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173
+Open [http://localhost:5173 ](https://vick-lam-data-bi-hk-bot.github.io/myprofile/)
 
 What to replace
 
