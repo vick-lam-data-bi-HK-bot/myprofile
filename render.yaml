@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: myprofile-cms-backend
+    env: node
+    plan: free
+    buildCommand: cd server && npm install --production && npm run build
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: SECRET_KEY
+        generateValue: true
+    disk:
+      name: cms-data
+      mountPath: /opt/render/project/server
+      sizeGB: 1
