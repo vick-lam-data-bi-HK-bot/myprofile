@@ -8,9 +8,13 @@ export default function Header(){
           <div className="avatar-initials">VL</div>
         </div>
         <div className="title">
-          <h1>Vick LAM</h1>
+          <h1>Vick LAM (He/Him)</h1>
           <p className="headline">Strategic Data & Business Intelligence Leader</p>
-          <p className="subheadline">Driving digital transformation, agency performance, and executive decision support in Insurance and Financial Services.</p>
+          <p className="location">📍 Hong Kong | Available from 27 April 2026</p>
+          <p className="subheadline">13+ years transforming complex data into strategic intelligence across Insurance, Financial Services, Retail and Conglomerates. Specialized in ETL, BI platforms, cloud-based analytics, and AI-enabled insights.</p>
+          <div className="contact-info">
+            <p>📧 vic1608@gmail.com | 📱 +852 6485 6291</p>
+          </div>
           <div className="links">
             <a href="#contact">Contact</a>
             <a href="#projects">Projects</a>

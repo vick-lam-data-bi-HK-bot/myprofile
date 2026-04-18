@@ -1,0 +1,16 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^pip install python-docx -q && python3 << 'EOF'\nfrom docx import Document\n\n# Load the docx file\ndoc = Document\\('/root/resume\\.docx'\\)\n\n# Extract all text\nprint\\(\"=== EXTRACTED RESUME CONTENT ===\\\\n\"\\)\nfor para in doc\\.paragraphs:\n    if para\\.text\\.strip\\(\\):\n        print\\(para\\.text\\)\n\nprint\\(\"\\\\n=== TABLES ===\"\\)\nfor table in doc\\.tables:\n    for row in table\\.rows:\n        row_text = \" \\| \"\\.join\\(\\[cell\\.text for cell in row\\.cells\\]\\)\n        print\\(row_text\\)\nEOF\n$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python3 << 'EOF'\nfrom docx import Document\n\n# Load the docx file\ndoc = Document\\('/workspaces/myprofile/assets/resume\\.docx'\\)\n\n# Extract all text\nprint\\(\"=== EXTRACTED RESUME CONTENT ===\\\\n\"\\)\nfor para in doc\\.paragraphs:\n    if para\\.text\\.strip\\(\\):\n        print\\(para\\.text\\)\n\nprint\\(\"\\\\n=== TABLES ===\"\\)\nfor table in doc\\.tables:\n    for row in table\\.rows:\n        row_text = \" \\| \"\\.join\\(\\[cell\\.text for cell in row\\.cells\\]\\)\n        if row_text\\.strip\\(\\):\n            print\\(row_text\\)\nEOF\n$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /workspaces/myprofile && git add -A && git commit -m \"chore: refresh profile with updated resume data - add certifications, expanded experience, skills, and contact info\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
