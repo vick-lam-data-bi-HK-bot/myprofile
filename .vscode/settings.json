@@ -11,6 +11,15 @@
         "/^cd /workspaces/myprofile && git add -A && git commit -m \"chore: refresh profile with updated resume data - add certifications, expanded experience, skills, and contact info\"$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^cd /workspaces/myprofile && npm install react-router-dom@6\\.14\\.0 axios --save$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "npm install": true,
+        "/^cd /workspaces/myprofile && git add -A && git commit -m \"feat: add CMS module with admin panel, image upload, comments, and traffic analytics\n\n- Backend: Express server with SQLite database\n- Admin authentication system \\(Login: Admin1, Password: QwertyPoiu@418!~\\)\n- CMS profile picture editor\n- Comment submission and moderation system\n- Traffic analytics with daily stats, top pages, referrers, and browsers\n- Frontend: Admin dashboard, comment box, comment viewer\n- React Router for admin panel routing\"$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
